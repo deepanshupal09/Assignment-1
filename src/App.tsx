@@ -1,13 +1,13 @@
 
 import { Route, Routes } from "react-router";
-import Login from "./pages/Login";
-import Repository from "./pages/Repository";
+import LoginPage from "./pages/LoginPage";
+import RepositoryPage from "./pages/RepositoryPage";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Login />}/>
-      <Route path="/repository" element={<Repository/>}/>
+      <Route path="/" element={<LoginPage />}/>
+      <Route path="/repository" element={<RepositoryPage/>}/>
     </Routes>
   );
 }

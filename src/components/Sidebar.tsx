@@ -74,7 +74,7 @@ export default function Sidebar() {
             </div>
             <div className="">Support</div>
           </div>
-          <Link to="/login" className="inline-flex cursor-pointer px-3 py-2 gap-x-2 text-[#414651] font-semibold">
+          <Link to="/" className="inline-flex cursor-pointer px-3 py-2 gap-x-2 text-[#414651] font-semibold">
             <div>
               <LogoutIcon />
             </div>
@@ -124,7 +124,7 @@ export default function Sidebar() {
               </div>
               <div>Support</div>
             </div>
-            <Link to="/login" className="inline-flex cursor-pointer gap-x-2 font-semibold px-[14px] py-2 leading-6 rounded-lg text-[#414651]">
+            <Link to="/" className="inline-flex cursor-pointer gap-x-2 font-semibold px-[14px] py-2 leading-6 rounded-lg text-[#414651]">
               <div>
                 <LogoutIcon />
               </div>
